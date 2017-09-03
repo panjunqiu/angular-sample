@@ -1,0 +1,17 @@
+{
+  "name": "angular-sample",
+  "version": "1.0.0",
+  "description": "study angular sample code",
+  "main": "index.js",
+  "repository": "git@github.com:panjunqiu/angular-sample.git",
+  "author": "justin_pan",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.2.30",
+    "angular-translate": "^2.15.2",
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  }
+}
