@@ -1,0 +1,23 @@
+
+body {
+	margin: 3px;
+}
+
+nav {
+	height: 30px;
+	width: 100%;
+	background-color: blue;
+}
+
+nav h1 {
+	margin: 0px;
+	display: inline-block;
+}
+
+.list-con {
+	width: 150px;
+	height: 100%;
+	border: 1px solid red;
+}
+
+
