@@ -2,10 +2,27 @@
 <html>
 <head>
 	<title>angular-sample</title>
-	<!-- <script type="text/javascript" src="node_modules/"></script> -->
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="sampleList.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
-<h1>angular-sample</h1>
-
+<body ng-app="sampleApp" ng-controller="navController">
+	<nav >
+		<h1>{{data.title}}</h1>
+		<span>{{data.version}}</span>
+	</nav>
+	<div class="list-con">
+		<!-- 一级路由，模块列表 -->
+		<ul>
+			<li ng-repeat="l in data.list">
+				<a href="">{{l}}</a>
+			</li>
+		</ul>
+	</div>
+	<div class="module-con">
+		<!-- 二级路由，具体模块名称 -->
+	</div>
+	
 </body>
 </html>

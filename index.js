@@ -1,6 +1,4 @@
-var sampleApp = angular.module('sampleApp',[]);
-sampleApp.controller('navController', function ($scope) {
-	$scope.title = "Angular Sample";
-	$scope.version = "v 1.0.0";
-
-})
+angular.module('sampleApp', []).controller('navController', function($scope, sampleList) {
+	$scope.data = sampleList;
+	console.log(sampleList);
+});

@@ -15,9 +15,18 @@ nav h1 {
 }
 
 .list-con {
+	position: absolute;
 	width: 150px;
-	height: 100%;
+	top: 33px;
+	bottom: 3px;
 	border: 1px solid red;
 }
 
-
+.module-con {
+	position: absolute;
+	top: 33px;
+	left: 156px;
+	right: 3px;
+	bottom: 3px;
+	border: 1px solid green;
+}
