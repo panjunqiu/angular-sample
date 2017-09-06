@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "angular": "1.2.30",
+    "angular-route": "1.2.x",
     "angular-translate": "^2.15.2",
     "http-server": "^0.10.0"
   },

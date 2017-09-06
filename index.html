@@ -3,6 +3,7 @@
 <head>
 	<title>angular-sample</title>
 	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
 	<script type="text/javascript" src="index.js"></script>
 	<script type="text/javascript" src="sampleList.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -13,16 +14,16 @@
 		<span>{{data.version}}</span>
 	</nav>
 	<div class="list-con">
-		<!-- 一级路由，模块列表 -->
+		<!-- 路由列表 -->
 		<ul>
 			<li ng-repeat="l in data.list">
-				<a href="">{{l}}</a>
+				<a href="#/{{l}}">{{l}}</a>
 			</li>
 		</ul>
 	</div>
 	<div class="module-con">
-		<!-- 二级路由，具体模块名称 -->
+		<!-- 一级路由，具体模块名称 -->
+		<div ng-view></div>
 	</div>
-	
 </body>
 </html>
