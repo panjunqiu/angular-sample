@@ -5,8 +5,8 @@ angular.module('sampleApp').constant('sampleList', {
 	title: "Angular Sample",
 	version: "v 1.0.0",
 	list: [
-		"Readme",
-		"ModuleA",
+		"readme",
+		"translate",
 		"ModuleB",
 		"ModuleC",
 		"ModuleD",

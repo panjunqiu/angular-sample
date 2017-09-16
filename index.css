@@ -6,7 +6,7 @@ body {
 nav {
 	height: 30px;
 	width: 100%;
-	background-color: blue;
+	background-color: gray;
 }
 
 nav h1 {
@@ -17,16 +17,23 @@ nav h1 {
 .list-con {
 	position: absolute;
 	width: 150px;
-	top: 33px;
+	top: 36px;
 	bottom: 3px;
-	border: 1px solid red;
+	border: 1px solid gray;
+}
+
+.list-con ul {
+	list-style: none;
+	margin: 10px;
+	padding: 0px;
 }
 
 .module-con {
 	position: absolute;
-	top: 33px;
+	top: 36px;
 	left: 156px;
 	right: 3px;
 	bottom: 3px;
-	border: 1px solid green;
+	border: 1px solid gray;
 }
+
